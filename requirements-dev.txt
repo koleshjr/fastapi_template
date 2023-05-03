@@ -1,0 +1,8 @@
+#all requirements required for dev testing should go in here
+
+-r api/requirements.txt
+fastapi[all] #this includes the test client that is why add a bracket
+pytest
+pytest-cov
+coverage #coverage information
+schemathesis
