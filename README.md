@@ -28,3 +28,5 @@ Select the tier
 Once that is done "deploy" and select the "api" as the path to deploy
 Go to your created app service on Azure and select "configuration" > "general settings" then add the code line below on the startup command: python3 -m gunicorn main:app
 
+## Deployed version of this template:
+Try it out: https://fastai-pydata.azurewebsites.net/docs
